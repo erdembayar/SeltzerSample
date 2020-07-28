@@ -1,0 +1,6 @@
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\AdmT\bin\Admt.dll
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\AdmT\bin\Admt.pdb
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\AdmT\obj\Debug\AdmT.csprojAssemblyReference.cache
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\AdmT\obj\Debug\AdmT.csproj.CoreCompileInputs.cache
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\AdmT\obj\Debug\Admt.dll
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\AdmT\obj\Debug\Admt.pdb

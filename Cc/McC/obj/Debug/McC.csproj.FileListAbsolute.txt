@@ -1,0 +1,11 @@
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\McC\bin\Debug\Mcc.dll.config
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\McC\bin\Debug\Mcc.dll
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\McC\bin\Debug\Mcc.pdb
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\McC\bin\Debug\Dc.dll
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\McC\bin\Debug\Dc.pdb
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\McC\bin\Debug\Dc.dll.config
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\McC\obj\Debug\McC.csprojAssemblyReference.cache
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\McC\obj\Debug\McC.csproj.CoreCompileInputs.cache
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\McC\obj\Debug\McC.csproj.CopyComplete
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\McC\obj\Debug\Mcc.dll
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\McC\obj\Debug\Mcc.pdb

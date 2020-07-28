@@ -1,0 +1,6 @@
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\C\Dcwt\bin\Debug\Dcwt.dll
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\C\Dcwt\bin\Debug\Dcwt.pdb
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\C\Dcwt\obj\Debug\Dcwt.csprojAssemblyReference.cache
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\C\Dcwt\obj\Debug\Dcwt.csproj.CoreCompileInputs.cache
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\C\Dcwt\obj\Debug\Dcwt.dll
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\C\Dcwt\obj\Debug\Dcwt.pdb

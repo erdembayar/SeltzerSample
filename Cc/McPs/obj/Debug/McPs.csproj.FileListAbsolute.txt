@@ -1,0 +1,11 @@
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\McPs\bin\Mcps.dll.config
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\McPs\bin\Mcps.dll
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\McPs\bin\Mcps.pdb
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\McPs\bin\Mcg.exe
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\McPs\bin\Mcg.pdb
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\McPs\bin\Mcg.exe.config
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\McPs\obj\Debug\McPs.csprojAssemblyReference.cache
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\McPs\obj\Debug\McPs.csproj.CoreCompileInputs.cache
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\McPs\obj\Debug\McPs.csproj.CopyComplete
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\McPs\obj\Debug\Mcps.dll
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\McPs\obj\Debug\Mcps.pdb

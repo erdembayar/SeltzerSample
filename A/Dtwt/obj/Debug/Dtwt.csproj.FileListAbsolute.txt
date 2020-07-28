@@ -1,0 +1,11 @@
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\A\Dtwt\bin\Debug\Dtwt.dll.config
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\A\Dtwt\bin\Debug\Dtwt.dll
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\A\Dtwt\bin\Debug\Dtwt.pdb
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\A\Dtwt\bin\Debug\Dtw.exe
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\A\Dtwt\bin\Debug\Dtw.pdb
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\A\Dtwt\bin\Debug\Dtw.exe.config
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\A\Dtwt\obj\Debug\Dtwt.csprojAssemblyReference.cache
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\A\Dtwt\obj\Debug\Dtwt.csproj.CoreCompileInputs.cache
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\A\Dtwt\obj\Debug\Dtwt.csproj.CopyComplete
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\A\Dtwt\obj\Debug\Dtwt.dll
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\A\Dtwt\obj\Debug\Dtwt.pdb

@@ -1,0 +1,17 @@
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\McG\bin\Mcg.exe.config
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\McG\bin\Mcg.exe
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\McG\bin\Mcg.pdb
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\McG\bin\Dc.dll
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\McG\bin\Mcc.dll
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\McG\bin\Sddnac.dll
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\McG\bin\Dc.pdb
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\McG\bin\Dc.dll.config
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\McG\bin\Sddnac.pdb
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\McG\bin\Sddnac.dll.config
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\McG\bin\Mcc.pdb
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\McG\bin\Mcc.dll.config
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\McG\obj\Debug\Mcg.csprojAssemblyReference.cache
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\McG\obj\Debug\Mcg.csproj.CoreCompileInputs.cache
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\McG\obj\Debug\Mcg.csproj.CopyComplete
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\McG\obj\Debug\Mcg.exe
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\McG\obj\Debug\Mcg.pdb

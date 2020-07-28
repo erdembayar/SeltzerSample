@@ -1,0 +1,10 @@
+﻿{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "allowJs": true,
+    "noImplicitAny": false
+  },
+  "exclude": [
+    "**/*.js"
+  ]
+}

@@ -1,0 +1,11 @@
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\Fs\bin\Debug\Fs.exe.config
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\Fs\bin\Debug\Fs.exe
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\Fs\bin\Debug\Fs.pdb
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\Fs\bin\Debug\Dc.dll
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\Fs\bin\Debug\Dc.pdb
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\Fs\bin\Debug\Dc.dll.config
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\Fs\obj\Debug\Fs.csprojAssemblyReference.cache
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\Fs\obj\Debug\Fs.csproj.CoreCompileInputs.cache
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\Fs\obj\Debug\Fs.csproj.CopyComplete
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\Fs\obj\Debug\Fs.exe
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\Cc\Fs\obj\Debug\Fs.pdb

@@ -1,0 +1,11 @@
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\S\J\Sdjac\bin\Debug\Sdjac.dll.config
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\S\J\Sdjac\bin\Debug\Sdjac.dll
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\S\J\Sdjac\bin\Debug\Sdjac.pdb
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\S\J\Sdjac\bin\Debug\Dc.dll
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\S\J\Sdjac\bin\Debug\Dc.pdb
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\S\J\Sdjac\bin\Debug\Dc.dll.config
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\S\J\Sdjac\obj\Debug\Sdjac.csprojAssemblyReference.cache
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\S\J\Sdjac\obj\Debug\Sdjac.csproj.CoreCompileInputs.cache
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\S\J\Sdjac\obj\Debug\Sdjac.csproj.CopyComplete
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\S\J\Sdjac\obj\Debug\Sdjac.dll
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\S\J\Sdjac\obj\Debug\Sdjac.pdb

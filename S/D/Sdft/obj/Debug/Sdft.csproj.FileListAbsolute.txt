@@ -1,0 +1,14 @@
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\S\D\Sdft\bin\Debug\Sdft.dll.config
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\S\D\Sdft\bin\Debug\Sdft.dll
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\S\D\Sdft\bin\Debug\Sdft.pdb
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\S\D\Sdft\bin\Debug\Dc.dll
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\S\D\Sdft\bin\Debug\Sdf.dll
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\S\D\Sdft\bin\Debug\Dc.pdb
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\S\D\Sdft\bin\Debug\Dc.dll.config
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\S\D\Sdft\bin\Debug\Sdf.pdb
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\S\D\Sdft\bin\Debug\Sdf.dll.config
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\S\D\Sdft\obj\Debug\Sdft.csprojAssemblyReference.cache
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\S\D\Sdft\obj\Debug\Sdft.csproj.CoreCompileInputs.cache
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\S\D\Sdft\obj\Debug\Sdft.csproj.CopyComplete
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\S\D\Sdft\obj\Debug\Sdft.dll
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\S\D\Sdft\obj\Debug\Sdft.pdb

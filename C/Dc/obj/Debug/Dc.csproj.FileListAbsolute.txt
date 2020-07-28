@@ -1,0 +1,11 @@
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\C\Dc\bin\Debug\Dc.dll.config
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\C\Dc\bin\Debug\Dc.dll
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\C\Dc\bin\Debug\Dc.pdb
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\C\Dc\bin\Debug\EnvDTE.dll
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\C\Dc\bin\Debug\EnvDTE80.dll
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\C\Dc\bin\Debug\stdole.dll
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\C\Dc\obj\Debug\Dc.csprojAssemblyReference.cache
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\C\Dc\obj\Debug\Dc.csproj.CoreCompileInputs.cache
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\C\Dc\obj\Debug\Dc.csproj.CopyComplete
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\C\Dc\obj\Debug\Dc.dll
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\C\Dc\obj\Debug\Dc.pdb

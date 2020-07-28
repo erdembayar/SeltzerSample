@@ -1,0 +1,5 @@
+* text=false
+/Common export-ignore
+.nuget export-ignore
+/Sdk export-ignore 
+.gitignore export-ignore

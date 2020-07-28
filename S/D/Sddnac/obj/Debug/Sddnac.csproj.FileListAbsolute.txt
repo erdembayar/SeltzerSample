@@ -1,0 +1,14 @@
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\S\D\Sddnac\bin\Debug\Sddnac.dll.config
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\S\D\Sddnac\bin\Debug\Sddnac.dll
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\S\D\Sddnac\bin\Debug\Sddnac.pdb
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\S\D\Sddnac\bin\Debug\Dc.dll
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\S\D\Sddnac\bin\Debug\Sdc.dll
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\S\D\Sddnac\bin\Debug\Dc.pdb
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\S\D\Sddnac\bin\Debug\Dc.dll.config
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\S\D\Sddnac\bin\Debug\Sdc.pdb
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\S\D\Sddnac\bin\Debug\Sdc.dll.config
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\S\D\Sddnac\obj\Debug\Sddnac.csprojAssemblyReference.cache
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\S\D\Sddnac\obj\Debug\Sddnac.csproj.CoreCompileInputs.cache
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\S\D\Sddnac\obj\Debug\Sddnac.csproj.CopyComplete
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\S\D\Sddnac\obj\Debug\Sddnac.dll
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\S\D\Sddnac\obj\Debug\Sddnac.pdb
