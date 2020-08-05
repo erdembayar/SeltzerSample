@@ -61,7 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Abot">
-      <Version>1.5.1.69</Version>
+      <Version>1.6.0.2</Version>
     </PackageReference>
     <PackageReference Include="AngleSharp">
       <Version>0.9.9.1</Version>
@@ -77,6 +77,9 @@
     </PackageReference>
     <PackageReference Include="MSTest.TestFramework">
       <Version>1.1.18</Version>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>8.0.3</Version>
     </PackageReference>
     <PackageReference Include="NUnit">
       <Version>3.8.1</Version>

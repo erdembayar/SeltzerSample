@@ -1,0 +1,56 @@
+{
+  "version": 2,
+  "dgSpecHash": "xYFiizQLI04z/qhwqvVHEYuzhXLEtQEjxibLxwjzpmL91NNDhmYC6JbgGrJIm7b7hs7o+9P+Ji9gChbd+HUmtg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\eryondon\\Downloads\\nuget-sample-master\\nuget-sample-master\\A\\Dtw\\Dtw.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\eryondon\\.nuget\\packages\\abot\\1.6.0.2\\abot.1.6.0.2.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\anglesharp\\0.9.9.1\\anglesharp.0.9.9.1.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\antlr\\3.5.0.2\\antlr.3.5.0.2.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\csquery\\1.3.4\\csquery.1.3.4.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\dapper\\1.50.7\\dapper.1.50.7.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\dapper.contrib\\1.50.7\\dapper.contrib.1.50.7.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\dapper.strongname\\1.50.2\\dapper.strongname.1.50.2.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\dapperextensions\\1.5.0\\dapperextensions.1.5.0.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\log4net\\2.0.8\\log4net.2.0.8.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\materialskin.updated\\0.2.2\\materialskin.updated.0.2.2.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\microsoft.aspnet.mvc\\5.2.3\\microsoft.aspnet.mvc.5.2.3.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\microsoft.aspnet.razor\\3.2.3\\microsoft.aspnet.razor.3.2.3.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\microsoft.aspnet.web.optimization\\1.1.3\\microsoft.aspnet.web.optimization.1.1.3.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.3\\microsoft.aspnet.webapi.client.5.2.3.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\microsoft.aspnet.webapi.core\\5.2.3\\microsoft.aspnet.webapi.core.5.2.3.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\microsoft.aspnet.webpages\\3.2.3\\microsoft.aspnet.webpages.3.2.3.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\microsoft.bcl\\1.1.10\\microsoft.bcl.1.1.10.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\microsoft.bcl.build\\1.0.21\\microsoft.bcl.build.1.0.21.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\microsoft.identitymodel.logging\\1.1.5\\microsoft.identitymodel.logging.1.1.5.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\microsoft.identitymodel.tokens\\5.1.5\\microsoft.identitymodel.tokens.5.1.5.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\microsoft.web.infrastructure\\1.0.0\\microsoft.web.infrastructure.1.0.0.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\newtonsoft.json\\8.0.3\\newtonsoft.json.8.0.3.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\nlog\\4.4.11\\nlog.4.4.11.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\nodatime\\2.2.3\\nodatime.2.2.3.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\npgsql\\3.2.4.1\\npgsql.3.2.4.1.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\nrobotspatched\\1.0.8\\nrobotspatched.1.0.8.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\nunit\\3.7.1\\nunit.3.7.1.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\nustache\\1.16.0.4\\nustache.1.16.0.4.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\stackexchange.redis\\1.2.4\\stackexchange.redis.1.2.4.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\system.identitymodel.tokens.jwt\\5.1.5\\system.identitymodel.tokens.jwt.5.1.5.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\system.threading.tasks.extensions\\4.3.0\\system.threading.tasks.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\tidynetportable\\1.0.0\\tidynetportable.1.0.0.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\webgrease\\1.6.0\\webgrease.1.6.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Newtonsoft.Json from 9.0.1 to 8.0.3. Reference the package directly from the project to select a different version. \r\n Dtw -> System.IdentityModel.Tokens.Jwt 5.1.5 -> Microsoft.IdentityModel.Tokens 5.1.5 -> Newtonsoft.Json (>= 9.0.1) \r\n Dtw -> Newtonsoft.Json (>= 8.0.3)",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1",
+        ".NETFramework,Version=v4.6.1/win",
+        ".NETFramework,Version=v4.6.1/win-x64",
+        ".NETFramework,Version=v4.6.1/win-x86"
+      ]
+    }
+  ]
+}

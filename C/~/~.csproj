@@ -38,12 +38,18 @@
     <None Include="Build\NuGet\NuGet.config" />
     <None Include="Build\NuGet\NuGet.targets" />
     <None Include="Build\NuGet\ReferencesTest\NuGet.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Build\NuGet\NuGet.exe" />
     <Content Include="Build\NuGet\ReferencesTest\ReferencesTest.sln" />
     <Content Include="Build\WebGrease\WebGrease.dll" />
     <Content Include="Build\WebGrease\WG.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

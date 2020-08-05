@@ -1,6 +1,14 @@
 C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\C\Dcwt\bin\Debug\Dcwt.dll
 C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\C\Dcwt\bin\Debug\Dcwt.pdb
-C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\C\Dcwt\obj\Debug\Dcwt.csprojAssemblyReference.cache
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\C\Dcwt\bin\Debug\System.Web.Mvc.dll
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\C\Dcwt\bin\Debug\System.Web.Razor.dll
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\C\Dcwt\bin\Debug\System.Web.Helpers.dll
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\C\Dcwt\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\C\Dcwt\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\C\Dcwt\bin\Debug\System.Web.WebPages.dll
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\C\Dcwt\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\C\Dcwt\bin\Debug\Newtonsoft.Json.dll
 C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\C\Dcwt\obj\Debug\Dcwt.csproj.CoreCompileInputs.cache
+C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\C\Dcwt\obj\Debug\Dcwt.csproj.CopyComplete
 C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\C\Dcwt\obj\Debug\Dcwt.dll
 C:\Users\eryondon\Downloads\nuget-sample-master\nuget-sample-master\C\Dcwt\obj\Debug\Dcwt.pdb

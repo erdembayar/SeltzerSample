@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "6qJ/DS6nmR0MxJT49cRmmM770bP8pRcow3GaRVpeS+s43qB+M61f1vvbeSBG3uymEClvTjyIQk7hOZwWc7FIrg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\eryondon\\Downloads\\nuget-sample-master\\nuget-sample-master\\Cc\\Fs\\Fs.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\eryondon\\.nuget\\packages\\antlr\\3.5.0.2\\antlr.3.5.0.2.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\common.logging\\3.3.1\\common.logging.3.3.1.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\common.logging.core\\3.3.1\\common.logging.core.3.3.1.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\csquery\\1.3.4\\csquery.1.3.4.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\dapper.strongname\\1.50.2\\dapper.strongname.1.50.2.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\microsoft.aspnet.mvc\\5.2.3\\microsoft.aspnet.mvc.5.2.3.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\microsoft.aspnet.razor\\3.2.3\\microsoft.aspnet.razor.3.2.3.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\microsoft.aspnet.web.optimization\\1.1.3\\microsoft.aspnet.web.optimization.1.1.3.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.3\\microsoft.aspnet.webapi.client.5.2.3.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\microsoft.aspnet.webapi.core\\5.2.3\\microsoft.aspnet.webapi.core.5.2.3.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\microsoft.aspnet.webpages\\3.2.3\\microsoft.aspnet.webpages.3.2.3.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\microsoft.web.infrastructure\\1.0.0\\microsoft.web.infrastructure.1.0.0.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\newtonsoft.json\\8.0.3\\newtonsoft.json.8.0.3.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\nlog\\4.4.11\\nlog.4.4.11.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\npgsql\\3.2.4.1\\npgsql.3.2.4.1.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\nunit\\3.7.1\\nunit.3.7.1.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\quartz\\2.5.0\\quartz.2.5.0.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\system.threading.tasks.extensions\\4.3.0\\system.threading.tasks.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\webgrease\\1.6.0\\webgrease.1.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

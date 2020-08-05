@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "Uu8tFDzXEUGXaae1yp8B0taUSq+v+xu3iJSzBWW5p6H3P1+nIHYZkC7VXPO0Qt0CwGwM/lLqvCYFT/rbd2w5HA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\eryondon\\Downloads\\nuget-sample-master\\nuget-sample-master\\C\\Dcwt\\Dcwt.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\eryondon\\.nuget\\packages\\jquery\\2.1.4\\jquery.2.1.4.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\microsoft.aspnet.mvc\\5.2.3\\microsoft.aspnet.mvc.5.2.3.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\microsoft.aspnet.razor\\3.2.3\\microsoft.aspnet.razor.3.2.3.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\microsoft.aspnet.webpages\\3.2.3\\microsoft.aspnet.webpages.3.2.3.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\microsoft.web.infrastructure\\1.0.0\\microsoft.web.infrastructure.1.0.0.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\newtonsoft.json\\8.0.3\\newtonsoft.json.8.0.3.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\qunit-mvc\\1.6.2\\qunit-mvc.1.6.2.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\underscore.js\\1.8.2\\underscore.js.1.8.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -56,6 +56,9 @@
     <PackageReference Include="mustache.js">
       <Version>0.8.1</Version>
     </PackageReference>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>8.0.3</Version>
+    </PackageReference>
     <PackageReference Include="qTip2">
       <Version>2.2.1</Version>
     </PackageReference>

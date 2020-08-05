@@ -64,7 +64,7 @@
       <Version>7.0.10-beta</Version>
     </PackageReference>
     <PackageReference Include="Newtonsoft.Json">
-      <Version>10.0.3</Version>
+      <Version>8.0.3</Version>
     </PackageReference>
     <PackageReference Include="NUnit">
       <Version>3.7.1</Version>

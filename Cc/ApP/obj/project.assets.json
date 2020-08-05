@@ -1,0 +1,2919 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "Antlr/3.5.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/Antlr3.Runtime.dll": {}
+        },
+        "runtime": {
+          "lib/Antlr3.Runtime.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.3.101.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/AWSSDK.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/AWSSDK.Core.dll": {}
+        }
+      },
+      "AWSSDK.S3/3.3.101.9": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.3.101.2, 3.4.0)"
+        },
+        "compile": {
+          "lib/net45/AWSSDK.S3.dll": {}
+        },
+        "runtime": {
+          "lib/net45/AWSSDK.S3.dll": {}
+        }
+      },
+      "CsQuery/1.3.4": {
+        "type": "package",
+        "compile": {
+          "lib/net40/CsQuery.dll": {}
+        },
+        "runtime": {
+          "lib/net40/CsQuery.dll": {}
+        }
+      },
+      "Dapper.StrongName/1.50.2": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Data",
+          "System.Xml",
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "lib/net451/Dapper.StrongName.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Dapper.StrongName.dll": {}
+        }
+      },
+      "Jint/2.11.23": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Data",
+          "System.Xml",
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "lib/net451/Jint.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Jint.dll": {}
+        }
+      },
+      "jquery.TypeScript.DefinitelyTyped/3.1.2": {
+        "type": "package"
+      },
+      "JsonDiffPatch.Net/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/net45/JsonDiffPatchDotNet.dll": {}
+        },
+        "runtime": {
+          "lib/net45/JsonDiffPatchDotNet.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Mvc/5.2.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "[3.2.3, 3.3.0)",
+          "Microsoft.AspNet.WebPages": "[3.2.3, 3.3.0)"
+        },
+        "compile": {
+          "lib/net45/System.Web.Mvc.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Mvc.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Razor/3.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Web.Razor.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Razor.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Web.Optimization/1.1.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Web.Infrastructure": "1.0.0",
+          "WebGrease": "1.5.2"
+        },
+        "compile": {
+          "lib/net40/System.Web.Optimization.dll": {}
+        },
+        "runtime": {
+          "lib/net40/System.Web.Optimization.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Client/5.2.3": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core/5.2.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.3"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebPages/3.2.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "[3.2.3, 3.3.0)",
+          "Microsoft.Web.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/System.Web.Helpers.dll": {},
+          "lib/net45/System.Web.WebPages.Deployment.dll": {},
+          "lib/net45/System.Web.WebPages.Razor.dll": {},
+          "lib/net45/System.Web.WebPages.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Helpers.dll": {},
+          "lib/net45/System.Web.WebPages.Deployment.dll": {},
+          "lib/net45/System.Web.WebPages.Razor.dll": {},
+          "lib/net45/System.Web.WebPages.dll": {}
+        }
+      },
+      "Microsoft.IdentityModel.Logging/1.1.4": {
+        "type": "package",
+        "compile": {
+          "lib/net451/Microsoft.IdentityModel.Logging.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Microsoft.IdentityModel.Logging.dll": {}
+        }
+      },
+      "Microsoft.IdentityModel.Tokens/5.1.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Logging": "1.1.4",
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "frameworkAssemblies": [
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/net451/Microsoft.IdentityModel.Tokens.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Microsoft.IdentityModel.Tokens.dll": {}
+        }
+      },
+      "Microsoft.Web.Infrastructure/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        }
+      },
+      "Newtonsoft.Json/8.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "NLog/4.4.11": {
+        "type": "package",
+        "compile": {
+          "lib/net45/NLog.dll": {}
+        },
+        "runtime": {
+          "lib/net45/NLog.dll": {}
+        }
+      },
+      "NodaTime/2.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/NodaTime.dll": {}
+        },
+        "runtime": {
+          "lib/net45/NodaTime.dll": {}
+        }
+      },
+      "Npgsql/3.2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.3.0"
+        },
+        "compile": {
+          "lib/net451/Npgsql.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Npgsql.dll": {}
+        }
+      },
+      "NUnit/3.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/nunit.framework.dll": {}
+        }
+      },
+      "Nustache/1.16.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Nustache.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Nustache.Core.dll": {}
+        }
+      },
+      "PSHostsFile/3.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/PSHostsFile.dll": {}
+        },
+        "runtime": {
+          "lib/PSHostsFile.dll": {}
+        }
+      },
+      "SharpZipLib/0.86.0": {
+        "type": "package",
+        "compile": {
+          "lib/20/ICSharpCode.SharpZipLib.dll": {}
+        },
+        "runtime": {
+          "lib/20/ICSharpCode.SharpZipLib.dll": {}
+        }
+      },
+      "StackExchange.Redis/1.2.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.IO.Compression"
+        ],
+        "compile": {
+          "lib/net46/StackExchange.Redis.dll": {}
+        },
+        "runtime": {
+          "lib/net46/StackExchange.Redis.dll": {}
+        }
+      },
+      "System.IdentityModel.Tokens.Jwt/5.1.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "5.1.4"
+        },
+        "compile": {
+          "lib/net451/System.IdentityModel.Tokens.Jwt.dll": {}
+        },
+        "runtime": {
+          "lib/net451/System.IdentityModel.Tokens.Jwt.dll": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "Toxiproxy.Net/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3"
+        },
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {},
+          "lib/net45/System.Net.Http.Formatting.dll": {},
+          "lib/net45/Toxiproxy.Net.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {},
+          "lib/net45/System.Net.Http.Formatting.dll": {},
+          "lib/net45/Toxiproxy.Net.dll": {}
+        }
+      },
+      "WebGrease/1.6.0": {
+        "type": "package",
+        "dependencies": {
+          "Antlr": "3.4.1.9004",
+          "Newtonsoft.Json": "5.0.4"
+        },
+        "compile": {
+          "lib/WebGrease.dll": {}
+        },
+        "runtime": {
+          "lib/WebGrease.dll": {}
+        }
+      },
+      "Dc/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "Antlr": "3.5.0.2",
+          "CsQuery": "1.3.4",
+          "Dapper.StrongName": "1.50.2",
+          "Microsoft.AspNet.Mvc": "5.2.3",
+          "Microsoft.AspNet.Web.Optimization": "1.1.3",
+          "Microsoft.AspNet.WebApi.Core": "5.2.3",
+          "NLog": "4.4.11",
+          "NUnit": "3.7.1",
+          "Newtonsoft.Json": "8.0.3",
+          "Npgsql": "3.2.4.1",
+          "WebGrease": "1.6.0"
+        },
+        "compile": {
+          "bin/placeholder/Dc.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dc.dll": {}
+        }
+      },
+      "Dtp/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "CsQuery": "1.3.4",
+          "Dapper.StrongName": "1.50.2",
+          "Dc": "1.0.0",
+          "Jint": "2.11.23",
+          "McC": "1.0.0",
+          "Mcg": "1.0.0",
+          "Newtonsoft.Json": "8.0.3",
+          "NodaTime": "2.2.0",
+          "Npgsql": "3.2.4.1",
+          "PSHostsFile": "3.0.5",
+          "Sdc": "1.0.0",
+          "Sddnac": "1.0.0",
+          "Sdf": "1.0.0",
+          "SharpZipLib": "0.86.0",
+          "StackExchange.Redis": "1.2.4"
+        },
+        "compile": {
+          "bin/placeholder/Dtp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dtp.dll": {}
+        }
+      },
+      "Ic/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "Antlr": "3.5.0.2",
+          "Dc": "1.0.0",
+          "Mcg": "1.0.0",
+          "Microsoft.AspNet.Mvc": "5.2.3",
+          "Microsoft.AspNet.Web.Optimization": "1.1.3",
+          "Newtonsoft.Json": "8.0.3",
+          "NodaTime": "2.2.0",
+          "Nustache": "1.16.0.4",
+          "Sdc": "1.0.0",
+          "Sddnac": "1.0.0",
+          "Sdf": "1.0.0",
+          "jquery.TypeScript.DefinitelyTyped": "3.1.2"
+        },
+        "compile": {
+          "bin/placeholder/Ic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ic.dll": {}
+        }
+      },
+      "Imc/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "Dapper.StrongName": "1.50.2",
+          "Dc": "1.0.0",
+          "Dtp": "1.0.0",
+          "Ic": "1.0.0",
+          "McC": "1.0.0",
+          "Mcg": "1.0.0",
+          "Newtonsoft.Json": "8.0.3",
+          "NodaTime": "2.2.0",
+          "Sdc": "1.0.0",
+          "Sddnac": "1.0.0",
+          "Sdf": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Imc.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Imc.dll": {}
+        }
+      },
+      "McC/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "Dc": "1.0.0",
+          "Newtonsoft.Json": "8.0.3",
+          "NodaTime": "2.2.0"
+        },
+        "compile": {
+          "bin/placeholder/McC.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/McC.dll": {}
+        }
+      },
+      "Mcg/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "Dc": "1.0.0",
+          "McC": "1.0.0",
+          "Newtonsoft.Json": "8.0.3",
+          "NodaTime": "2.2.0",
+          "Sddnac": "1.0.0",
+          "SharpZipLib": "0.86.0",
+          "Toxiproxy.Net": "2.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mcg.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mcg.dll": {}
+        }
+      },
+      "Sdc/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "Dc": "1.0.0",
+          "Newtonsoft.Json": "8.0.3",
+          "NodaTime": "2.2.0",
+          "Sdjac": "1.0.0",
+          "System.IdentityModel.Tokens.Jwt": "5.1.4"
+        },
+        "compile": {
+          "bin/placeholder/Sdc.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sdc.dll": {}
+        }
+      },
+      "Sddnac/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "Dc": "1.0.0",
+          "Newtonsoft.Json": "8.0.3",
+          "NodaTime": "2.2.0",
+          "Sdc": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Sddnac.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sddnac.dll": {}
+        }
+      },
+      "Sdf/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "CsQuery": "1.3.4",
+          "Dapper.StrongName": "1.50.2",
+          "Dc": "1.0.0",
+          "McC": "1.0.0",
+          "Microsoft.AspNet.Mvc": "5.2.3",
+          "Newtonsoft.Json": "8.0.3",
+          "NodaTime": "2.2.0",
+          "Nustache": "1.16.0.4",
+          "Sdc": "1.0.0",
+          "Sddnac": "1.0.0",
+          "StackExchange.Redis": "1.2.4"
+        },
+        "compile": {
+          "bin/placeholder/Sdf.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sdf.dll": {}
+        }
+      },
+      "Sdjac/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Dc": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Sdjac.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sdjac.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win": {
+      "Antlr/3.5.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/Antlr3.Runtime.dll": {}
+        },
+        "runtime": {
+          "lib/Antlr3.Runtime.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.3.101.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/AWSSDK.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/AWSSDK.Core.dll": {}
+        }
+      },
+      "AWSSDK.S3/3.3.101.9": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.3.101.2, 3.4.0)"
+        },
+        "compile": {
+          "lib/net45/AWSSDK.S3.dll": {}
+        },
+        "runtime": {
+          "lib/net45/AWSSDK.S3.dll": {}
+        }
+      },
+      "CsQuery/1.3.4": {
+        "type": "package",
+        "compile": {
+          "lib/net40/CsQuery.dll": {}
+        },
+        "runtime": {
+          "lib/net40/CsQuery.dll": {}
+        }
+      },
+      "Dapper.StrongName/1.50.2": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Data",
+          "System.Xml",
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "lib/net451/Dapper.StrongName.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Dapper.StrongName.dll": {}
+        }
+      },
+      "Jint/2.11.23": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Data",
+          "System.Xml",
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "lib/net451/Jint.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Jint.dll": {}
+        }
+      },
+      "jquery.TypeScript.DefinitelyTyped/3.1.2": {
+        "type": "package"
+      },
+      "JsonDiffPatch.Net/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/net45/JsonDiffPatchDotNet.dll": {}
+        },
+        "runtime": {
+          "lib/net45/JsonDiffPatchDotNet.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Mvc/5.2.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "[3.2.3, 3.3.0)",
+          "Microsoft.AspNet.WebPages": "[3.2.3, 3.3.0)"
+        },
+        "compile": {
+          "lib/net45/System.Web.Mvc.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Mvc.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Razor/3.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Web.Razor.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Razor.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Web.Optimization/1.1.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Web.Infrastructure": "1.0.0",
+          "WebGrease": "1.5.2"
+        },
+        "compile": {
+          "lib/net40/System.Web.Optimization.dll": {}
+        },
+        "runtime": {
+          "lib/net40/System.Web.Optimization.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Client/5.2.3": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core/5.2.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.3"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebPages/3.2.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "[3.2.3, 3.3.0)",
+          "Microsoft.Web.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/System.Web.Helpers.dll": {},
+          "lib/net45/System.Web.WebPages.Deployment.dll": {},
+          "lib/net45/System.Web.WebPages.Razor.dll": {},
+          "lib/net45/System.Web.WebPages.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Helpers.dll": {},
+          "lib/net45/System.Web.WebPages.Deployment.dll": {},
+          "lib/net45/System.Web.WebPages.Razor.dll": {},
+          "lib/net45/System.Web.WebPages.dll": {}
+        }
+      },
+      "Microsoft.IdentityModel.Logging/1.1.4": {
+        "type": "package",
+        "compile": {
+          "lib/net451/Microsoft.IdentityModel.Logging.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Microsoft.IdentityModel.Logging.dll": {}
+        }
+      },
+      "Microsoft.IdentityModel.Tokens/5.1.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Logging": "1.1.4",
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "frameworkAssemblies": [
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/net451/Microsoft.IdentityModel.Tokens.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Microsoft.IdentityModel.Tokens.dll": {}
+        }
+      },
+      "Microsoft.Web.Infrastructure/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        }
+      },
+      "Newtonsoft.Json/8.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "NLog/4.4.11": {
+        "type": "package",
+        "compile": {
+          "lib/net45/NLog.dll": {}
+        },
+        "runtime": {
+          "lib/net45/NLog.dll": {}
+        }
+      },
+      "NodaTime/2.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/NodaTime.dll": {}
+        },
+        "runtime": {
+          "lib/net45/NodaTime.dll": {}
+        }
+      },
+      "Npgsql/3.2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.3.0"
+        },
+        "compile": {
+          "lib/net451/Npgsql.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Npgsql.dll": {}
+        }
+      },
+      "NUnit/3.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/nunit.framework.dll": {}
+        }
+      },
+      "Nustache/1.16.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Nustache.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Nustache.Core.dll": {}
+        }
+      },
+      "PSHostsFile/3.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/PSHostsFile.dll": {}
+        },
+        "runtime": {
+          "lib/PSHostsFile.dll": {}
+        }
+      },
+      "SharpZipLib/0.86.0": {
+        "type": "package",
+        "compile": {
+          "lib/20/ICSharpCode.SharpZipLib.dll": {}
+        },
+        "runtime": {
+          "lib/20/ICSharpCode.SharpZipLib.dll": {}
+        }
+      },
+      "StackExchange.Redis/1.2.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.IO.Compression"
+        ],
+        "compile": {
+          "lib/net46/StackExchange.Redis.dll": {}
+        },
+        "runtime": {
+          "lib/net46/StackExchange.Redis.dll": {}
+        }
+      },
+      "System.IdentityModel.Tokens.Jwt/5.1.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "5.1.4"
+        },
+        "compile": {
+          "lib/net451/System.IdentityModel.Tokens.Jwt.dll": {}
+        },
+        "runtime": {
+          "lib/net451/System.IdentityModel.Tokens.Jwt.dll": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "Toxiproxy.Net/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3"
+        },
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {},
+          "lib/net45/System.Net.Http.Formatting.dll": {},
+          "lib/net45/Toxiproxy.Net.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {},
+          "lib/net45/System.Net.Http.Formatting.dll": {},
+          "lib/net45/Toxiproxy.Net.dll": {}
+        }
+      },
+      "WebGrease/1.6.0": {
+        "type": "package",
+        "dependencies": {
+          "Antlr": "3.4.1.9004",
+          "Newtonsoft.Json": "5.0.4"
+        },
+        "compile": {
+          "lib/WebGrease.dll": {}
+        },
+        "runtime": {
+          "lib/WebGrease.dll": {}
+        }
+      },
+      "Dc/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "Antlr": "3.5.0.2",
+          "CsQuery": "1.3.4",
+          "Dapper.StrongName": "1.50.2",
+          "Microsoft.AspNet.Mvc": "5.2.3",
+          "Microsoft.AspNet.Web.Optimization": "1.1.3",
+          "Microsoft.AspNet.WebApi.Core": "5.2.3",
+          "NLog": "4.4.11",
+          "NUnit": "3.7.1",
+          "Newtonsoft.Json": "8.0.3",
+          "Npgsql": "3.2.4.1",
+          "WebGrease": "1.6.0"
+        },
+        "compile": {
+          "bin/placeholder/Dc.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dc.dll": {}
+        }
+      },
+      "Dtp/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "CsQuery": "1.3.4",
+          "Dapper.StrongName": "1.50.2",
+          "Dc": "1.0.0",
+          "Jint": "2.11.23",
+          "McC": "1.0.0",
+          "Mcg": "1.0.0",
+          "Newtonsoft.Json": "8.0.3",
+          "NodaTime": "2.2.0",
+          "Npgsql": "3.2.4.1",
+          "PSHostsFile": "3.0.5",
+          "Sdc": "1.0.0",
+          "Sddnac": "1.0.0",
+          "Sdf": "1.0.0",
+          "SharpZipLib": "0.86.0",
+          "StackExchange.Redis": "1.2.4"
+        },
+        "compile": {
+          "bin/placeholder/Dtp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dtp.dll": {}
+        }
+      },
+      "Ic/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "Antlr": "3.5.0.2",
+          "Dc": "1.0.0",
+          "Mcg": "1.0.0",
+          "Microsoft.AspNet.Mvc": "5.2.3",
+          "Microsoft.AspNet.Web.Optimization": "1.1.3",
+          "Newtonsoft.Json": "8.0.3",
+          "NodaTime": "2.2.0",
+          "Nustache": "1.16.0.4",
+          "Sdc": "1.0.0",
+          "Sddnac": "1.0.0",
+          "Sdf": "1.0.0",
+          "jquery.TypeScript.DefinitelyTyped": "3.1.2"
+        },
+        "compile": {
+          "bin/placeholder/Ic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ic.dll": {}
+        }
+      },
+      "Imc/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "Dapper.StrongName": "1.50.2",
+          "Dc": "1.0.0",
+          "Dtp": "1.0.0",
+          "Ic": "1.0.0",
+          "McC": "1.0.0",
+          "Mcg": "1.0.0",
+          "Newtonsoft.Json": "8.0.3",
+          "NodaTime": "2.2.0",
+          "Sdc": "1.0.0",
+          "Sddnac": "1.0.0",
+          "Sdf": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Imc.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Imc.dll": {}
+        }
+      },
+      "McC/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "Dc": "1.0.0",
+          "Newtonsoft.Json": "8.0.3",
+          "NodaTime": "2.2.0"
+        },
+        "compile": {
+          "bin/placeholder/McC.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/McC.dll": {}
+        }
+      },
+      "Mcg/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "Dc": "1.0.0",
+          "McC": "1.0.0",
+          "Newtonsoft.Json": "8.0.3",
+          "NodaTime": "2.2.0",
+          "Sddnac": "1.0.0",
+          "SharpZipLib": "0.86.0",
+          "Toxiproxy.Net": "2.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mcg.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mcg.dll": {}
+        }
+      },
+      "Sdc/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "Dc": "1.0.0",
+          "Newtonsoft.Json": "8.0.3",
+          "NodaTime": "2.2.0",
+          "Sdjac": "1.0.0",
+          "System.IdentityModel.Tokens.Jwt": "5.1.4"
+        },
+        "compile": {
+          "bin/placeholder/Sdc.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sdc.dll": {}
+        }
+      },
+      "Sddnac/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "Dc": "1.0.0",
+          "Newtonsoft.Json": "8.0.3",
+          "NodaTime": "2.2.0",
+          "Sdc": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Sddnac.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sddnac.dll": {}
+        }
+      },
+      "Sdf/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "CsQuery": "1.3.4",
+          "Dapper.StrongName": "1.50.2",
+          "Dc": "1.0.0",
+          "McC": "1.0.0",
+          "Microsoft.AspNet.Mvc": "5.2.3",
+          "Newtonsoft.Json": "8.0.3",
+          "NodaTime": "2.2.0",
+          "Nustache": "1.16.0.4",
+          "Sdc": "1.0.0",
+          "Sddnac": "1.0.0",
+          "StackExchange.Redis": "1.2.4"
+        },
+        "compile": {
+          "bin/placeholder/Sdf.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sdf.dll": {}
+        }
+      },
+      "Sdjac/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Dc": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Sdjac.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sdjac.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x64": {
+      "Antlr/3.5.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/Antlr3.Runtime.dll": {}
+        },
+        "runtime": {
+          "lib/Antlr3.Runtime.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.3.101.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/AWSSDK.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/AWSSDK.Core.dll": {}
+        }
+      },
+      "AWSSDK.S3/3.3.101.9": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.3.101.2, 3.4.0)"
+        },
+        "compile": {
+          "lib/net45/AWSSDK.S3.dll": {}
+        },
+        "runtime": {
+          "lib/net45/AWSSDK.S3.dll": {}
+        }
+      },
+      "CsQuery/1.3.4": {
+        "type": "package",
+        "compile": {
+          "lib/net40/CsQuery.dll": {}
+        },
+        "runtime": {
+          "lib/net40/CsQuery.dll": {}
+        }
+      },
+      "Dapper.StrongName/1.50.2": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Data",
+          "System.Xml",
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "lib/net451/Dapper.StrongName.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Dapper.StrongName.dll": {}
+        }
+      },
+      "Jint/2.11.23": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Data",
+          "System.Xml",
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "lib/net451/Jint.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Jint.dll": {}
+        }
+      },
+      "jquery.TypeScript.DefinitelyTyped/3.1.2": {
+        "type": "package"
+      },
+      "JsonDiffPatch.Net/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/net45/JsonDiffPatchDotNet.dll": {}
+        },
+        "runtime": {
+          "lib/net45/JsonDiffPatchDotNet.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Mvc/5.2.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "[3.2.3, 3.3.0)",
+          "Microsoft.AspNet.WebPages": "[3.2.3, 3.3.0)"
+        },
+        "compile": {
+          "lib/net45/System.Web.Mvc.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Mvc.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Razor/3.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Web.Razor.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Razor.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Web.Optimization/1.1.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Web.Infrastructure": "1.0.0",
+          "WebGrease": "1.5.2"
+        },
+        "compile": {
+          "lib/net40/System.Web.Optimization.dll": {}
+        },
+        "runtime": {
+          "lib/net40/System.Web.Optimization.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Client/5.2.3": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core/5.2.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.3"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebPages/3.2.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "[3.2.3, 3.3.0)",
+          "Microsoft.Web.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/System.Web.Helpers.dll": {},
+          "lib/net45/System.Web.WebPages.Deployment.dll": {},
+          "lib/net45/System.Web.WebPages.Razor.dll": {},
+          "lib/net45/System.Web.WebPages.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Helpers.dll": {},
+          "lib/net45/System.Web.WebPages.Deployment.dll": {},
+          "lib/net45/System.Web.WebPages.Razor.dll": {},
+          "lib/net45/System.Web.WebPages.dll": {}
+        }
+      },
+      "Microsoft.IdentityModel.Logging/1.1.4": {
+        "type": "package",
+        "compile": {
+          "lib/net451/Microsoft.IdentityModel.Logging.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Microsoft.IdentityModel.Logging.dll": {}
+        }
+      },
+      "Microsoft.IdentityModel.Tokens/5.1.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Logging": "1.1.4",
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "frameworkAssemblies": [
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/net451/Microsoft.IdentityModel.Tokens.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Microsoft.IdentityModel.Tokens.dll": {}
+        }
+      },
+      "Microsoft.Web.Infrastructure/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        }
+      },
+      "Newtonsoft.Json/8.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "NLog/4.4.11": {
+        "type": "package",
+        "compile": {
+          "lib/net45/NLog.dll": {}
+        },
+        "runtime": {
+          "lib/net45/NLog.dll": {}
+        }
+      },
+      "NodaTime/2.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/NodaTime.dll": {}
+        },
+        "runtime": {
+          "lib/net45/NodaTime.dll": {}
+        }
+      },
+      "Npgsql/3.2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.3.0"
+        },
+        "compile": {
+          "lib/net451/Npgsql.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Npgsql.dll": {}
+        }
+      },
+      "NUnit/3.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/nunit.framework.dll": {}
+        }
+      },
+      "Nustache/1.16.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Nustache.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Nustache.Core.dll": {}
+        }
+      },
+      "PSHostsFile/3.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/PSHostsFile.dll": {}
+        },
+        "runtime": {
+          "lib/PSHostsFile.dll": {}
+        }
+      },
+      "SharpZipLib/0.86.0": {
+        "type": "package",
+        "compile": {
+          "lib/20/ICSharpCode.SharpZipLib.dll": {}
+        },
+        "runtime": {
+          "lib/20/ICSharpCode.SharpZipLib.dll": {}
+        }
+      },
+      "StackExchange.Redis/1.2.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.IO.Compression"
+        ],
+        "compile": {
+          "lib/net46/StackExchange.Redis.dll": {}
+        },
+        "runtime": {
+          "lib/net46/StackExchange.Redis.dll": {}
+        }
+      },
+      "System.IdentityModel.Tokens.Jwt/5.1.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "5.1.4"
+        },
+        "compile": {
+          "lib/net451/System.IdentityModel.Tokens.Jwt.dll": {}
+        },
+        "runtime": {
+          "lib/net451/System.IdentityModel.Tokens.Jwt.dll": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "Toxiproxy.Net/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3"
+        },
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {},
+          "lib/net45/System.Net.Http.Formatting.dll": {},
+          "lib/net45/Toxiproxy.Net.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {},
+          "lib/net45/System.Net.Http.Formatting.dll": {},
+          "lib/net45/Toxiproxy.Net.dll": {}
+        }
+      },
+      "WebGrease/1.6.0": {
+        "type": "package",
+        "dependencies": {
+          "Antlr": "3.4.1.9004",
+          "Newtonsoft.Json": "5.0.4"
+        },
+        "compile": {
+          "lib/WebGrease.dll": {}
+        },
+        "runtime": {
+          "lib/WebGrease.dll": {}
+        }
+      },
+      "Dc/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "Antlr": "3.5.0.2",
+          "CsQuery": "1.3.4",
+          "Dapper.StrongName": "1.50.2",
+          "Microsoft.AspNet.Mvc": "5.2.3",
+          "Microsoft.AspNet.Web.Optimization": "1.1.3",
+          "Microsoft.AspNet.WebApi.Core": "5.2.3",
+          "NLog": "4.4.11",
+          "NUnit": "3.7.1",
+          "Newtonsoft.Json": "8.0.3",
+          "Npgsql": "3.2.4.1",
+          "WebGrease": "1.6.0"
+        },
+        "compile": {
+          "bin/placeholder/Dc.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dc.dll": {}
+        }
+      },
+      "Dtp/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "CsQuery": "1.3.4",
+          "Dapper.StrongName": "1.50.2",
+          "Dc": "1.0.0",
+          "Jint": "2.11.23",
+          "McC": "1.0.0",
+          "Mcg": "1.0.0",
+          "Newtonsoft.Json": "8.0.3",
+          "NodaTime": "2.2.0",
+          "Npgsql": "3.2.4.1",
+          "PSHostsFile": "3.0.5",
+          "Sdc": "1.0.0",
+          "Sddnac": "1.0.0",
+          "Sdf": "1.0.0",
+          "SharpZipLib": "0.86.0",
+          "StackExchange.Redis": "1.2.4"
+        },
+        "compile": {
+          "bin/placeholder/Dtp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dtp.dll": {}
+        }
+      },
+      "Ic/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "Antlr": "3.5.0.2",
+          "Dc": "1.0.0",
+          "Mcg": "1.0.0",
+          "Microsoft.AspNet.Mvc": "5.2.3",
+          "Microsoft.AspNet.Web.Optimization": "1.1.3",
+          "Newtonsoft.Json": "8.0.3",
+          "NodaTime": "2.2.0",
+          "Nustache": "1.16.0.4",
+          "Sdc": "1.0.0",
+          "Sddnac": "1.0.0",
+          "Sdf": "1.0.0",
+          "jquery.TypeScript.DefinitelyTyped": "3.1.2"
+        },
+        "compile": {
+          "bin/placeholder/Ic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ic.dll": {}
+        }
+      },
+      "Imc/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "Dapper.StrongName": "1.50.2",
+          "Dc": "1.0.0",
+          "Dtp": "1.0.0",
+          "Ic": "1.0.0",
+          "McC": "1.0.0",
+          "Mcg": "1.0.0",
+          "Newtonsoft.Json": "8.0.3",
+          "NodaTime": "2.2.0",
+          "Sdc": "1.0.0",
+          "Sddnac": "1.0.0",
+          "Sdf": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Imc.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Imc.dll": {}
+        }
+      },
+      "McC/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "Dc": "1.0.0",
+          "Newtonsoft.Json": "8.0.3",
+          "NodaTime": "2.2.0"
+        },
+        "compile": {
+          "bin/placeholder/McC.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/McC.dll": {}
+        }
+      },
+      "Mcg/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "Dc": "1.0.0",
+          "McC": "1.0.0",
+          "Newtonsoft.Json": "8.0.3",
+          "NodaTime": "2.2.0",
+          "Sddnac": "1.0.0",
+          "SharpZipLib": "0.86.0",
+          "Toxiproxy.Net": "2.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mcg.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mcg.dll": {}
+        }
+      },
+      "Sdc/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "Dc": "1.0.0",
+          "Newtonsoft.Json": "8.0.3",
+          "NodaTime": "2.2.0",
+          "Sdjac": "1.0.0",
+          "System.IdentityModel.Tokens.Jwt": "5.1.4"
+        },
+        "compile": {
+          "bin/placeholder/Sdc.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sdc.dll": {}
+        }
+      },
+      "Sddnac/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "Dc": "1.0.0",
+          "Newtonsoft.Json": "8.0.3",
+          "NodaTime": "2.2.0",
+          "Sdc": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Sddnac.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sddnac.dll": {}
+        }
+      },
+      "Sdf/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "CsQuery": "1.3.4",
+          "Dapper.StrongName": "1.50.2",
+          "Dc": "1.0.0",
+          "McC": "1.0.0",
+          "Microsoft.AspNet.Mvc": "5.2.3",
+          "Newtonsoft.Json": "8.0.3",
+          "NodaTime": "2.2.0",
+          "Nustache": "1.16.0.4",
+          "Sdc": "1.0.0",
+          "Sddnac": "1.0.0",
+          "StackExchange.Redis": "1.2.4"
+        },
+        "compile": {
+          "bin/placeholder/Sdf.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sdf.dll": {}
+        }
+      },
+      "Sdjac/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Dc": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Sdjac.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sdjac.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x86": {
+      "Antlr/3.5.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/Antlr3.Runtime.dll": {}
+        },
+        "runtime": {
+          "lib/Antlr3.Runtime.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.3.101.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/AWSSDK.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/AWSSDK.Core.dll": {}
+        }
+      },
+      "AWSSDK.S3/3.3.101.9": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.3.101.2, 3.4.0)"
+        },
+        "compile": {
+          "lib/net45/AWSSDK.S3.dll": {}
+        },
+        "runtime": {
+          "lib/net45/AWSSDK.S3.dll": {}
+        }
+      },
+      "CsQuery/1.3.4": {
+        "type": "package",
+        "compile": {
+          "lib/net40/CsQuery.dll": {}
+        },
+        "runtime": {
+          "lib/net40/CsQuery.dll": {}
+        }
+      },
+      "Dapper.StrongName/1.50.2": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Data",
+          "System.Xml",
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "lib/net451/Dapper.StrongName.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Dapper.StrongName.dll": {}
+        }
+      },
+      "Jint/2.11.23": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Data",
+          "System.Xml",
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "lib/net451/Jint.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Jint.dll": {}
+        }
+      },
+      "jquery.TypeScript.DefinitelyTyped/3.1.2": {
+        "type": "package"
+      },
+      "JsonDiffPatch.Net/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/net45/JsonDiffPatchDotNet.dll": {}
+        },
+        "runtime": {
+          "lib/net45/JsonDiffPatchDotNet.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Mvc/5.2.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "[3.2.3, 3.3.0)",
+          "Microsoft.AspNet.WebPages": "[3.2.3, 3.3.0)"
+        },
+        "compile": {
+          "lib/net45/System.Web.Mvc.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Mvc.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Razor/3.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Web.Razor.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Razor.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Web.Optimization/1.1.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Web.Infrastructure": "1.0.0",
+          "WebGrease": "1.5.2"
+        },
+        "compile": {
+          "lib/net40/System.Web.Optimization.dll": {}
+        },
+        "runtime": {
+          "lib/net40/System.Web.Optimization.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Client/5.2.3": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core/5.2.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.3"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebPages/3.2.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "[3.2.3, 3.3.0)",
+          "Microsoft.Web.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/System.Web.Helpers.dll": {},
+          "lib/net45/System.Web.WebPages.Deployment.dll": {},
+          "lib/net45/System.Web.WebPages.Razor.dll": {},
+          "lib/net45/System.Web.WebPages.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Helpers.dll": {},
+          "lib/net45/System.Web.WebPages.Deployment.dll": {},
+          "lib/net45/System.Web.WebPages.Razor.dll": {},
+          "lib/net45/System.Web.WebPages.dll": {}
+        }
+      },
+      "Microsoft.IdentityModel.Logging/1.1.4": {
+        "type": "package",
+        "compile": {
+          "lib/net451/Microsoft.IdentityModel.Logging.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Microsoft.IdentityModel.Logging.dll": {}
+        }
+      },
+      "Microsoft.IdentityModel.Tokens/5.1.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Logging": "1.1.4",
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "frameworkAssemblies": [
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/net451/Microsoft.IdentityModel.Tokens.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Microsoft.IdentityModel.Tokens.dll": {}
+        }
+      },
+      "Microsoft.Web.Infrastructure/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        }
+      },
+      "Newtonsoft.Json/8.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "NLog/4.4.11": {
+        "type": "package",
+        "compile": {
+          "lib/net45/NLog.dll": {}
+        },
+        "runtime": {
+          "lib/net45/NLog.dll": {}
+        }
+      },
+      "NodaTime/2.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/NodaTime.dll": {}
+        },
+        "runtime": {
+          "lib/net45/NodaTime.dll": {}
+        }
+      },
+      "Npgsql/3.2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.3.0"
+        },
+        "compile": {
+          "lib/net451/Npgsql.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Npgsql.dll": {}
+        }
+      },
+      "NUnit/3.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/nunit.framework.dll": {}
+        }
+      },
+      "Nustache/1.16.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Nustache.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Nustache.Core.dll": {}
+        }
+      },
+      "PSHostsFile/3.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/PSHostsFile.dll": {}
+        },
+        "runtime": {
+          "lib/PSHostsFile.dll": {}
+        }
+      },
+      "SharpZipLib/0.86.0": {
+        "type": "package",
+        "compile": {
+          "lib/20/ICSharpCode.SharpZipLib.dll": {}
+        },
+        "runtime": {
+          "lib/20/ICSharpCode.SharpZipLib.dll": {}
+        }
+      },
+      "StackExchange.Redis/1.2.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.IO.Compression"
+        ],
+        "compile": {
+          "lib/net46/StackExchange.Redis.dll": {}
+        },
+        "runtime": {
+          "lib/net46/StackExchange.Redis.dll": {}
+        }
+      },
+      "System.IdentityModel.Tokens.Jwt/5.1.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "5.1.4"
+        },
+        "compile": {
+          "lib/net451/System.IdentityModel.Tokens.Jwt.dll": {}
+        },
+        "runtime": {
+          "lib/net451/System.IdentityModel.Tokens.Jwt.dll": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "Toxiproxy.Net/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3"
+        },
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {},
+          "lib/net45/System.Net.Http.Formatting.dll": {},
+          "lib/net45/Toxiproxy.Net.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {},
+          "lib/net45/System.Net.Http.Formatting.dll": {},
+          "lib/net45/Toxiproxy.Net.dll": {}
+        }
+      },
+      "WebGrease/1.6.0": {
+        "type": "package",
+        "dependencies": {
+          "Antlr": "3.4.1.9004",
+          "Newtonsoft.Json": "5.0.4"
+        },
+        "compile": {
+          "lib/WebGrease.dll": {}
+        },
+        "runtime": {
+          "lib/WebGrease.dll": {}
+        }
+      },
+      "Dc/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "Antlr": "3.5.0.2",
+          "CsQuery": "1.3.4",
+          "Dapper.StrongName": "1.50.2",
+          "Microsoft.AspNet.Mvc": "5.2.3",
+          "Microsoft.AspNet.Web.Optimization": "1.1.3",
+          "Microsoft.AspNet.WebApi.Core": "5.2.3",
+          "NLog": "4.4.11",
+          "NUnit": "3.7.1",
+          "Newtonsoft.Json": "8.0.3",
+          "Npgsql": "3.2.4.1",
+          "WebGrease": "1.6.0"
+        },
+        "compile": {
+          "bin/placeholder/Dc.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dc.dll": {}
+        }
+      },
+      "Dtp/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "CsQuery": "1.3.4",
+          "Dapper.StrongName": "1.50.2",
+          "Dc": "1.0.0",
+          "Jint": "2.11.23",
+          "McC": "1.0.0",
+          "Mcg": "1.0.0",
+          "Newtonsoft.Json": "8.0.3",
+          "NodaTime": "2.2.0",
+          "Npgsql": "3.2.4.1",
+          "PSHostsFile": "3.0.5",
+          "Sdc": "1.0.0",
+          "Sddnac": "1.0.0",
+          "Sdf": "1.0.0",
+          "SharpZipLib": "0.86.0",
+          "StackExchange.Redis": "1.2.4"
+        },
+        "compile": {
+          "bin/placeholder/Dtp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dtp.dll": {}
+        }
+      },
+      "Ic/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "Antlr": "3.5.0.2",
+          "Dc": "1.0.0",
+          "Mcg": "1.0.0",
+          "Microsoft.AspNet.Mvc": "5.2.3",
+          "Microsoft.AspNet.Web.Optimization": "1.1.3",
+          "Newtonsoft.Json": "8.0.3",
+          "NodaTime": "2.2.0",
+          "Nustache": "1.16.0.4",
+          "Sdc": "1.0.0",
+          "Sddnac": "1.0.0",
+          "Sdf": "1.0.0",
+          "jquery.TypeScript.DefinitelyTyped": "3.1.2"
+        },
+        "compile": {
+          "bin/placeholder/Ic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ic.dll": {}
+        }
+      },
+      "Imc/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "Dapper.StrongName": "1.50.2",
+          "Dc": "1.0.0",
+          "Dtp": "1.0.0",
+          "Ic": "1.0.0",
+          "McC": "1.0.0",
+          "Mcg": "1.0.0",
+          "Newtonsoft.Json": "8.0.3",
+          "NodaTime": "2.2.0",
+          "Sdc": "1.0.0",
+          "Sddnac": "1.0.0",
+          "Sdf": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Imc.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Imc.dll": {}
+        }
+      },
+      "McC/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "Dc": "1.0.0",
+          "Newtonsoft.Json": "8.0.3",
+          "NodaTime": "2.2.0"
+        },
+        "compile": {
+          "bin/placeholder/McC.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/McC.dll": {}
+        }
+      },
+      "Mcg/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "Dc": "1.0.0",
+          "McC": "1.0.0",
+          "Newtonsoft.Json": "8.0.3",
+          "NodaTime": "2.2.0",
+          "Sddnac": "1.0.0",
+          "SharpZipLib": "0.86.0",
+          "Toxiproxy.Net": "2.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mcg.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mcg.dll": {}
+        }
+      },
+      "Sdc/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "Dc": "1.0.0",
+          "Newtonsoft.Json": "8.0.3",
+          "NodaTime": "2.2.0",
+          "Sdjac": "1.0.0",
+          "System.IdentityModel.Tokens.Jwt": "5.1.4"
+        },
+        "compile": {
+          "bin/placeholder/Sdc.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sdc.dll": {}
+        }
+      },
+      "Sddnac/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "Dc": "1.0.0",
+          "Newtonsoft.Json": "8.0.3",
+          "NodaTime": "2.2.0",
+          "Sdc": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Sddnac.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sddnac.dll": {}
+        }
+      },
+      "Sdf/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "CsQuery": "1.3.4",
+          "Dapper.StrongName": "1.50.2",
+          "Dc": "1.0.0",
+          "McC": "1.0.0",
+          "Microsoft.AspNet.Mvc": "5.2.3",
+          "Newtonsoft.Json": "8.0.3",
+          "NodaTime": "2.2.0",
+          "Nustache": "1.16.0.4",
+          "Sdc": "1.0.0",
+          "Sddnac": "1.0.0",
+          "StackExchange.Redis": "1.2.4"
+        },
+        "compile": {
+          "bin/placeholder/Sdf.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sdf.dll": {}
+        }
+      },
+      "Sdjac/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Dc": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Sdjac.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sdjac.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Antlr/3.5.0.2": {
+      "sha512": "CSfrVuDVMx3OrQhT84zed+tOdM1clljyRLWWlQM22fJsmG836RVDGQlE6tzysXh8X8p9UjkHbLr6OqEIVhtdEA==",
+      "type": "package",
+      "path": "antlr/3.5.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "antlr.3.5.0.2.nupkg.sha512",
+        "antlr.nuspec",
+        "lib/Antlr3.Runtime.dll",
+        "lib/Antlr3.Runtime.pdb"
+      ]
+    },
+    "AWSSDK.Core/3.3.101.2": {
+      "sha512": "s8BdWRt7c3Nhg6LW9t/VZiq/DoA2iset0NUpDMgmU2y0NNCrC/MYM+K6zMGR66x45Z5h48wOUmQbuheKED5Vuw==",
+      "type": "package",
+      "path": "awssdk.core/3.3.101.2",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "awssdk.core.3.3.101.2.nupkg.sha512",
+        "awssdk.core.nuspec",
+        "lib/MonoAndroid10/AWSSDK.Core.XML",
+        "lib/MonoAndroid10/AWSSDK.Core.dll",
+        "lib/MonoAndroid10/AWSSDK.Core.pdb",
+        "lib/MonoTouch10/AWSSDK.Core.XML",
+        "lib/MonoTouch10/AWSSDK.Core.dll",
+        "lib/Xamarin.Mac20/AWSSDK.Core.XML",
+        "lib/Xamarin.Mac20/AWSSDK.Core.dll",
+        "lib/Xamarin.iOS10/AWSSDK.Core.XML",
+        "lib/Xamarin.iOS10/AWSSDK.Core.dll",
+        "lib/net35/AWSSDK.Core.dll",
+        "lib/net35/AWSSDK.Core.pdb",
+        "lib/net35/AWSSDK.Core.xml",
+        "lib/net45/AWSSDK.Core.dll",
+        "lib/net45/AWSSDK.Core.pdb",
+        "lib/net45/AWSSDK.Core.xml",
+        "lib/netstandard1.3/AWSSDK.Core.dll",
+        "lib/netstandard1.3/AWSSDK.Core.pdb",
+        "lib/netstandard1.3/AWSSDK.Core.xml",
+        "lib/netstandard2.0/AWSSDK.Core.dll",
+        "lib/netstandard2.0/AWSSDK.Core.pdb",
+        "lib/netstandard2.0/AWSSDK.Core.xml",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.Core.XML",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.Core.dll",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.Core.pdb",
+        "lib/uap/AWSSDK.Core.XML",
+        "lib/uap/AWSSDK.Core.dll",
+        "lib/uap/AWSSDK.Core.pdb",
+        "lib/win8/AWSSDK.Core.XML",
+        "lib/win8/AWSSDK.Core.dll",
+        "lib/win8/AWSSDK.Core.pdb",
+        "lib/wp8/AWSSDK.Core.XML",
+        "lib/wp8/AWSSDK.Core.dll",
+        "lib/wp8/AWSSDK.Core.pdb",
+        "lib/wpa81/AWSSDK.Core.XML",
+        "lib/wpa81/AWSSDK.Core.dll",
+        "lib/wpa81/AWSSDK.Core.pdb",
+        "tools/account-management.ps1"
+      ]
+    },
+    "AWSSDK.S3/3.3.101.9": {
+      "sha512": "Y8x0+3GPou1aSVHkRKLw5R7QtfHPrO0B77i4J0TXQvEZXchaVGOBs55kdYxrlOvBPJd6Mo96Fi+X82of+lRSFw==",
+      "type": "package",
+      "path": "awssdk.s3/3.3.101.9",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.S3.CodeAnalysis.dll",
+        "awssdk.s3.3.3.101.9.nupkg.sha512",
+        "awssdk.s3.nuspec",
+        "lib/MonoAndroid10/AWSSDK.S3.XML",
+        "lib/MonoAndroid10/AWSSDK.S3.dll",
+        "lib/MonoTouch10/AWSSDK.S3.XML",
+        "lib/MonoTouch10/AWSSDK.S3.dll",
+        "lib/MonoTouch10/AWSSDK.S3.pdb",
+        "lib/Xamarin.iOS10/AWSSDK.S3.XML",
+        "lib/Xamarin.iOS10/AWSSDK.S3.dll",
+        "lib/net35/AWSSDK.S3.dll",
+        "lib/net35/AWSSDK.S3.pdb",
+        "lib/net35/AWSSDK.S3.xml",
+        "lib/net45/AWSSDK.S3.dll",
+        "lib/net45/AWSSDK.S3.pdb",
+        "lib/net45/AWSSDK.S3.xml",
+        "lib/netstandard1.3/AWSSDK.S3.dll",
+        "lib/netstandard1.3/AWSSDK.S3.pdb",
+        "lib/netstandard1.3/AWSSDK.S3.xml",
+        "lib/netstandard2.0/AWSSDK.S3.dll",
+        "lib/netstandard2.0/AWSSDK.S3.pdb",
+        "lib/netstandard2.0/AWSSDK.S3.xml",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.S3.XML",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.S3.dll",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.S3.pdb",
+        "lib/uap/AWSSDK.S3.XML",
+        "lib/uap/AWSSDK.S3.dll",
+        "lib/uap/AWSSDK.S3.pdb",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "CsQuery/1.3.4": {
+      "sha512": "JQUAwMrxt4Wg5GVxT7kKNYQTi0+gvN+DdQ60C2ZVegzvftrOpJgVobazZn+/OcReiNLIGwJhMFSn0FskgqbOUQ==",
+      "type": "package",
+      "path": "csquery/1.3.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "csquery.1.3.4.nupkg.sha512",
+        "csquery.nuspec",
+        "lib/net40/CsQuery.XML",
+        "lib/net40/CsQuery.dll"
+      ]
+    },
+    "Dapper.StrongName/1.50.2": {
+      "sha512": "Fhu4akfX2OFUjy2aDRIjIOld2ana4VGzqlkfxLCnQQJ082HO8YCEwxsLzwqzvASooSWmzDKWycpr7tkFfamq4g==",
+      "type": "package",
+      "path": "dapper.strongname/1.50.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dapper.strongname.1.50.2.nupkg.sha512",
+        "dapper.strongname.nuspec",
+        "lib/net40/Dapper.StrongName.dll",
+        "lib/net40/Dapper.StrongName.xml",
+        "lib/net45/Dapper.StrongName.dll",
+        "lib/net45/Dapper.StrongName.xml",
+        "lib/net451/Dapper.StrongName.dll",
+        "lib/net451/Dapper.StrongName.xml",
+        "lib/netstandard1.3/Dapper.StrongName.dll",
+        "lib/netstandard1.3/Dapper.StrongName.xml"
+      ]
+    },
+    "Jint/2.11.23": {
+      "sha512": "nnVucG0Uh3zu7+iEwEVTFPUpDcD6fGdZV7YQLkeTUjXC/e6x4TZ8i8frMXLRH3tfv2nb11lf4tU+DAl+mE3a5g==",
+      "type": "package",
+      "path": "jint/2.11.23",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "jint.2.11.23.nupkg.sha512",
+        "jint.nuspec",
+        "lib/net40/Jint.dll",
+        "lib/net45/Jint.dll",
+        "lib/net451/Jint.dll",
+        "lib/netstandard1.3/Jint.dll"
+      ]
+    },
+    "jquery.TypeScript.DefinitelyTyped/3.1.2": {
+      "sha512": "km6S6ElHdLPBxNf1qj5vQjkw1rpRe5Hwf/1aFo5TZtl3ZSfc//lcdsVTfPZz78o+/dkhEC+ZJcRONNlVDAJg6A==",
+      "type": "package",
+      "path": "jquery.typescript.definitelytyped/3.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Scripts/typings/jquery/jquery.d.ts",
+        "jquery.typescript.definitelytyped.3.1.2.nupkg.sha512",
+        "jquery.typescript.definitelytyped.nuspec"
+      ]
+    },
+    "JsonDiffPatch.Net/2.0.2": {
+      "sha512": "0eTnM+FbKGgAd6YnGSf9VY06Ttb0zMmIuZtXMkhCRfzkFMUHmOR24B6PoJzVcTNGVjlgpK+T1CecaVUw66ik4A==",
+      "type": "package",
+      "path": "jsondiffpatch.net/2.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "jsondiffpatch.net.2.0.2.nupkg.sha512",
+        "jsondiffpatch.net.nuspec",
+        "lib/net45/JsonDiffPatchDotNet.dll",
+        "lib/net45/JsonDiffPatchDotNet.pdb",
+        "lib/netstandard1.0/JsonDiffPatchDotNet.dll",
+        "lib/netstandard1.0/JsonDiffPatchDotNet.pdb",
+        "lib/netstandard1.3/JsonDiffPatchDotNet.dll",
+        "lib/netstandard1.3/JsonDiffPatchDotNet.pdb",
+        "lib/portable-net45+win8+wpa81+wp8/JsonDiffPatchDotNet.dll",
+        "lib/portable-net45+win8+wpa81+wp8/JsonDiffPatchDotNet.pdb"
+      ]
+    },
+    "Microsoft.AspNet.Mvc/5.2.3": {
+      "sha512": "i8jZf5QrbcFmjiYWRD7o7qTak/oXKxV80MgP4cZ33A8GC0RBtBIdZ1VHaloGUg+qsHUz5rVkGpwenM+ugDz5PA==",
+      "type": "package",
+      "path": "microsoft.aspnet.mvc/5.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Web.config.install.xdt",
+        "Content/Web.config.uninstall.xdt",
+        "lib/net45/System.Web.Mvc.dll",
+        "lib/net45/System.Web.Mvc.xml",
+        "microsoft.aspnet.mvc.5.2.3.nupkg.sha512",
+        "microsoft.aspnet.mvc.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.Razor/3.2.3": {
+      "sha512": "leta+Q73O7+pR8ThTqXmwaNMSqwZQQ3BHfpUHd8S1XaUWe1jRVLitMHqo1AmY7wPNLyankPA1beiUKEGj8Q3Dw==",
+      "type": "package",
+      "path": "microsoft.aspnet.razor/3.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/System.Web.Razor.dll",
+        "lib/net45/System.Web.Razor.xml",
+        "microsoft.aspnet.razor.3.2.3.nupkg.sha512",
+        "microsoft.aspnet.razor.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.Web.Optimization/1.1.3": {
+      "sha512": "TWKKpTWEdB8jXp2Vl2TXNKW30GBQg6nnh0y8iZWmGY5c1XY4f649vfDslNHsCsvk9JZxc1Rkm/UGDdfq4gjWRQ==",
+      "type": "package",
+      "path": "microsoft.aspnet.web.optimization/1.1.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/System.Web.Optimization.dll",
+        "lib/net40/system.web.optimization.xml",
+        "microsoft.aspnet.web.optimization.1.1.3.nupkg.sha512",
+        "microsoft.aspnet.web.optimization.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Client/5.2.3": {
+      "sha512": "3kiI8peSXbXHDDrRuo+QaX0iCEVRe0nvn2dBDRw656uPX32UalbBlSIDUDlJxu05eau4tnuhsikiUuugvvoUoQ==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.client/5.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/System.Net.Http.Formatting.dll",
+        "lib/net45/System.Net.Http.Formatting.xml",
+        "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.dll",
+        "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.xml",
+        "microsoft.aspnet.webapi.client.5.2.3.nupkg.sha512",
+        "microsoft.aspnet.webapi.client.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Core/5.2.3": {
+      "sha512": "o90QYlRV8VKR1S7+EcJw9w8WSyVFLl+IIzN8ILZ+n2t6rsc/KS8kBxRzA7wCFPRUHhebCfLqilBk39phvanx3g==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.core/5.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/web.config.transform",
+        "lib/net45/System.Web.Http.dll",
+        "lib/net45/System.Web.Http.xml",
+        "microsoft.aspnet.webapi.core.5.2.3.nupkg.sha512",
+        "microsoft.aspnet.webapi.core.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebPages/3.2.3": {
+      "sha512": "zbtxBERla5RE/mhftwbrXOzc0r6lh8WcnjpGW7QQe+PvSDDx1BgsTUGzfCXO/vJznHNpY5oCSYLt8Q5vUu7F0g==",
+      "type": "package",
+      "path": "microsoft.aspnet.webpages/3.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Web.config.install.xdt",
+        "Content/Web.config.uninstall.xdt",
+        "lib/net45/System.Web.Helpers.dll",
+        "lib/net45/System.Web.Helpers.xml",
+        "lib/net45/System.Web.WebPages.Deployment.dll",
+        "lib/net45/System.Web.WebPages.Deployment.xml",
+        "lib/net45/System.Web.WebPages.Razor.dll",
+        "lib/net45/System.Web.WebPages.Razor.xml",
+        "lib/net45/System.Web.WebPages.dll",
+        "lib/net45/System.Web.WebPages.xml",
+        "microsoft.aspnet.webpages.3.2.3.nupkg.sha512",
+        "microsoft.aspnet.webpages.nuspec"
+      ]
+    },
+    "Microsoft.IdentityModel.Logging/1.1.4": {
+      "sha512": "j7t22EsDOuo0IXqAbp6ijdB1GuaY8cu3YoPNZpymOhUMTVC+wRTV0IHqxL31HacCnJHU/igsqe70fDKZgZu3oA==",
+      "type": "package",
+      "path": "microsoft.identitymodel.logging/1.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.IdentityModel.Logging.dll",
+        "lib/net45/Microsoft.IdentityModel.Logging.xml",
+        "lib/net451/Microsoft.IdentityModel.Logging.dll",
+        "lib/net451/Microsoft.IdentityModel.Logging.xml",
+        "lib/netstandard1.4/Microsoft.IdentityModel.Logging.dll",
+        "lib/netstandard1.4/Microsoft.IdentityModel.Logging.xml",
+        "microsoft.identitymodel.logging.1.1.4.nupkg.sha512",
+        "microsoft.identitymodel.logging.nuspec"
+      ]
+    },
+    "Microsoft.IdentityModel.Tokens/5.1.4": {
+      "sha512": "SsJbZVPvjSlKFDAQmR2wpL6ZD/vCFlIsf0jxRlBJwyzKXZy3Wi/Xo+fE2MzAerLsJgG1UCdtplRwqDyq1euayw==",
+      "type": "package",
+      "path": "microsoft.identitymodel.tokens/5.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.IdentityModel.Tokens.dll",
+        "lib/net45/Microsoft.IdentityModel.Tokens.xml",
+        "lib/net451/Microsoft.IdentityModel.Tokens.dll",
+        "lib/net451/Microsoft.IdentityModel.Tokens.xml",
+        "lib/netstandard1.4/Microsoft.IdentityModel.Tokens.dll",
+        "lib/netstandard1.4/Microsoft.IdentityModel.Tokens.xml",
+        "microsoft.identitymodel.tokens.5.1.4.nupkg.sha512",
+        "microsoft.identitymodel.tokens.nuspec"
+      ]
+    },
+    "Microsoft.Web.Infrastructure/1.0.0": {
+      "sha512": "FNmvLn5m2LTU/Rs2KWVo0SIIh9Ek+U0ojex7xeDaSHw/zgEP77A8vY5cVWgUtBGS8MJfDGNn8rpXJWEIQaPwTg==",
+      "type": "package",
+      "path": "microsoft.web.infrastructure/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Microsoft.Web.Infrastructure.dll",
+        "microsoft.web.infrastructure.1.0.0.nupkg.sha512",
+        "microsoft.web.infrastructure.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/8.0.3": {
+      "sha512": "KGsYQdS2zLH+H8x2cZaSI7e+YZ4SFIbyy1YJQYl6GYBWjf5o4H1A68nxyq+WTyVSOJQ4GqS/DiPE+UseUizgMg==",
+      "type": "package",
+      "path": "newtonsoft.json/8.0.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.xml",
+        "newtonsoft.json.8.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "NLog/4.4.11": {
+      "sha512": "NR0CI46WbD1EbVGhjd33tfk62XWpR5dFBELxXbT5zf7wCh3rnHMMHfmk8bVGyjZnXC5PC/Meow3JGDY6OpbN/g==",
+      "type": "package",
+      "path": "nlog/4.4.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/NLog.dll",
+        "lib/MonoAndroid10/NLog.xml",
+        "lib/Xamarin.iOS10/NLog.dll",
+        "lib/Xamarin.iOS10/NLog.xml",
+        "lib/net35/NLog.dll",
+        "lib/net35/NLog.xml",
+        "lib/net40/NLog.dll",
+        "lib/net40/NLog.xml",
+        "lib/net45/NLog.dll",
+        "lib/net45/NLog.xml",
+        "lib/sl4/NLog.dll",
+        "lib/sl4/NLog.xml",
+        "lib/sl5/NLog.dll",
+        "lib/sl5/NLog.xml",
+        "lib/wp8/NLog.dll",
+        "lib/wp8/NLog.xml",
+        "nlog.4.4.11.nupkg.sha512",
+        "nlog.nuspec"
+      ]
+    },
+    "NodaTime/2.2.0": {
+      "sha512": "D04k0P/s/E39TBkRfUTbumAlrgvoSsEG4jLza3L/+5e9Rm51ceiu6ctIoM2C5bjlOJ/hX1iFYDbLXfP9XoypjA==",
+      "type": "package",
+      "path": "nodatime/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/NodaTime.dll",
+        "lib/net45/NodaTime.pdb",
+        "lib/net45/NodaTime.xml",
+        "lib/netstandard1.3/NodaTime.dll",
+        "lib/netstandard1.3/NodaTime.pdb",
+        "lib/netstandard1.3/NodaTime.xml",
+        "nodatime.2.2.0.nupkg.sha512",
+        "nodatime.nuspec"
+      ]
+    },
+    "Npgsql/3.2.4.1": {
+      "sha512": "/ZmL7Ok0LwcYGshElFAamsBDV96rRjMW8IZL/5rOJPhQYB6Wmex6gldDQxXkiErcaJB9P438/5CxAfuAVdThCw==",
+      "type": "package",
+      "path": "npgsql/3.2.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Npgsql.dll",
+        "lib/net45/Npgsql.xml",
+        "lib/net451/Npgsql.dll",
+        "lib/net451/Npgsql.xml",
+        "lib/netstandard1.3/Npgsql.dll",
+        "lib/netstandard1.3/Npgsql.xml",
+        "lib/netstandard2.0/Npgsql.dll",
+        "lib/netstandard2.0/Npgsql.xml",
+        "npgsql.3.2.4.1.nupkg.sha512",
+        "npgsql.nuspec"
+      ]
+    },
+    "NUnit/3.7.1": {
+      "sha512": "vUTICvR3uqw6OTOcwsfz22KjVk8xFcNdz22XnGPL3itQU7+HSV+8xySjGmVkMWZ4IPbaV/+T33C775EEtiEYIA==",
+      "type": "package",
+      "path": "nunit/3.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGES.md",
+        "LICENSE.txt",
+        "NOTICES.txt",
+        "lib/net20/NUnit.System.Linq.dll",
+        "lib/net20/nunit.framework.dll",
+        "lib/net20/nunit.framework.xml",
+        "lib/net35/nunit.framework.dll",
+        "lib/net35/nunit.framework.xml",
+        "lib/net40/nunit.framework.dll",
+        "lib/net40/nunit.framework.xml",
+        "lib/net45/nunit.framework.dll",
+        "lib/net45/nunit.framework.xml",
+        "lib/netstandard1.3/nunit.framework.dll",
+        "lib/netstandard1.3/nunit.framework.xml",
+        "lib/netstandard1.6/nunit.framework.dll",
+        "lib/netstandard1.6/nunit.framework.xml",
+        "nunit.3.7.1.nupkg.sha512",
+        "nunit.nuspec"
+      ]
+    },
+    "Nustache/1.16.0.4": {
+      "sha512": "bCBOoBtYbGSt/J2/mN5RNqoCVx9h+YIfo5W9aG/IPW5e7lSRFQt0ugW08McNBg4SX78nEe7a60p8WKPsZpnjzw==",
+      "type": "package",
+      "path": "nustache/1.16.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Nustache.Core.dll",
+        "nustache.1.16.0.4.nupkg.sha512",
+        "nustache.nuspec"
+      ]
+    },
+    "PSHostsFile/3.0.5": {
+      "sha512": "otP7LZGk8pOMBsBarrI8RAmUQHMkEcw9CfKFGIgBIVCxZOTAJecCK++eRm+056etpeKBRXnFv7uCUvTaFyasZA==",
+      "type": "package",
+      "path": "pshostsfile/3.0.5",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/PSHostsFile.dll",
+        "lib/PSHostsFile.pdb",
+        "pshostsfile.3.0.5.nupkg.sha512",
+        "pshostsfile.nuspec",
+        "tools/PSHostsFile.dll",
+        "tools/PSHostsFile.pdb"
+      ]
+    },
+    "SharpZipLib/0.86.0": {
+      "sha512": "5DbS1SlKLMi+WG00Cm0ueYf2oyXJrowETQk8nx96rmdjTuHsA3laPykGV7Sxi0R5Xxfx0Kh/EfacAZ1f6M7y/g==",
+      "type": "package",
+      "path": "sharpziplib/0.86.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/11/ICSharpCode.SharpZipLib.dll",
+        "lib/20/ICSharpCode.SharpZipLib.dll",
+        "lib/SL3/SharpZipLib.Silverlight3.dll",
+        "lib/SL4/SharpZipLib.Silverlight4.dll",
+        "sharpziplib.0.86.0.nupkg.sha512",
+        "sharpziplib.nuspec"
+      ]
+    },
+    "StackExchange.Redis/1.2.4": {
+      "sha512": "xD3zD0avV8j9aeWN+snvyclHURaxZZfzPQFSYTfWMIJ/BppyPSryr/vyysh7EQDX5qcw+HhE6TUb7Ho9Doadyw==",
+      "type": "package",
+      "path": "stackexchange.redis/1.2.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/StackExchange.Redis.dll",
+        "lib/net45/StackExchange.Redis.xml",
+        "lib/net46/StackExchange.Redis.dll",
+        "lib/net46/StackExchange.Redis.xml",
+        "lib/netstandard1.5/StackExchange.Redis.dll",
+        "lib/netstandard1.5/StackExchange.Redis.xml",
+        "stackexchange.redis.1.2.4.nupkg.sha512",
+        "stackexchange.redis.nuspec"
+      ]
+    },
+    "System.IdentityModel.Tokens.Jwt/5.1.4": {
+      "sha512": "hLUU1N99aL9uyxiTraBnCKlpUKsbP/+5ygD7cswspH9/+M7fAAL0hRzt2aA4w7VEQlSSiu8j+xWFk3NRcqhfQQ==",
+      "type": "package",
+      "path": "system.identitymodel.tokens.jwt/5.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/System.IdentityModel.Tokens.Jwt.dll",
+        "lib/net45/System.IdentityModel.Tokens.Jwt.xml",
+        "lib/net451/System.IdentityModel.Tokens.Jwt.dll",
+        "lib/net451/System.IdentityModel.Tokens.Jwt.xml",
+        "lib/netstandard1.4/System.IdentityModel.Tokens.Jwt.dll",
+        "lib/netstandard1.4/System.IdentityModel.Tokens.Jwt.xml",
+        "system.identitymodel.tokens.jwt.5.1.4.nupkg.sha512",
+        "system.identitymodel.tokens.jwt.nuspec"
+      ]
+    },
+    "System.Threading.Tasks.Extensions/4.3.0": {
+      "sha512": "npvJkVKl5rKXrtl1Kkm6OhOUaYGEiF9wFbppFRWSMoApKzt2PiPHT2Bb8a5sAWxprvdOAtvaARS9QYMznEUtug==",
+      "type": "package",
+      "path": "system.threading.tasks.extensions/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.xml",
+        "system.threading.tasks.extensions.4.3.0.nupkg.sha512",
+        "system.threading.tasks.extensions.nuspec"
+      ]
+    },
+    "Toxiproxy.Net/2.0.0": {
+      "sha512": "HeDsIOfyzBHhSDJi9BOm9xGmWw6iDyr+0t+ZcmUJvxPcOkrIvV/9Mzs47BYQ7cW0PpLQ8rOXUlQtoojePVgNUA==",
+      "type": "package",
+      "path": "toxiproxy.net/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "compiled/Win64/toxiproxy-server-2.0.0-windows-amd64.exe",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net45/System.Net.Http.Formatting.dll",
+        "lib/net45/System.Net.Http.Formatting.xml",
+        "lib/net45/Toxiproxy.Net.dll",
+        "lib/net45/Toxiproxy.Net.dll.config",
+        "lib/net45/Toxiproxy.Net.pdb",
+        "toxiproxy.net.2.0.0.nupkg.sha512",
+        "toxiproxy.net.nuspec"
+      ]
+    },
+    "WebGrease/1.6.0": {
+      "sha512": "1d29edoh4IZPLig82coowiPBS1ltxT97PwEIkOk0dHqtJwD9v5C7gPm6Ot1hKHT86otKm04oDQ00x5c+PyVyxw==",
+      "type": "package",
+      "path": "webgrease/1.6.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/WebGrease.dll",
+        "tools/WG.EXE",
+        "webgrease.1.6.0.nupkg.sha512",
+        "webgrease.nuspec"
+      ]
+    },
+    "Dc/1.0.0": {
+      "type": "project",
+      "path": "../../C/Dc/Dc.csproj",
+      "msbuildProject": "../../C/Dc/Dc.csproj"
+    },
+    "Dtp/1.0.0": {
+      "type": "project",
+      "path": "../../A/Dtp/Dtp.csproj",
+      "msbuildProject": "../../A/Dtp/Dtp.csproj"
+    },
+    "Ic/1.0.0": {
+      "type": "project",
+      "path": "../../I/Ic/Ic.csproj",
+      "msbuildProject": "../../I/Ic/Ic.csproj"
+    },
+    "Imc/1.0.0": {
+      "type": "project",
+      "path": "../../I/Imc/Imc.csproj",
+      "msbuildProject": "../../I/Imc/Imc.csproj"
+    },
+    "McC/1.0.0": {
+      "type": "project",
+      "path": "../McC/McC.csproj",
+      "msbuildProject": "../McC/McC.csproj"
+    },
+    "Mcg/1.0.0": {
+      "type": "project",
+      "path": "../McG/Mcg.csproj",
+      "msbuildProject": "../McG/Mcg.csproj"
+    },
+    "Sdc/1.0.0": {
+      "type": "project",
+      "path": "../../S/D/Sdc/Sdc.csproj",
+      "msbuildProject": "../../S/D/Sdc/Sdc.csproj"
+    },
+    "Sddnac/1.0.0": {
+      "type": "project",
+      "path": "../../S/D/Sddnac/Sddnac.csproj",
+      "msbuildProject": "../../S/D/Sddnac/Sddnac.csproj"
+    },
+    "Sdf/1.0.0": {
+      "type": "project",
+      "path": "../../S/D/Sdf/Sdf.csproj",
+      "msbuildProject": "../../S/D/Sdf/Sdf.csproj"
+    },
+    "Sdjac/1.0.0": {
+      "type": "project",
+      "path": "../../S/J/Sdjac/Sdjac.csproj",
+      "msbuildProject": "../../S/J/Sdjac/Sdjac.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": [
+      "AWSSDK.S3 >= 3.3.101.9",
+      "CsQuery >= 1.3.4",
+      "Dapper.StrongName >= 1.50.2",
+      "Dc >= 1.0.0",
+      "Dtp >= 1.0.0",
+      "Ic >= 1.0.0",
+      "Imc >= 1.0.0",
+      "JsonDiffPatch.Net >= 2.0.2",
+      "Mcg >= 1.0.0",
+      "Newtonsoft.Json >= 8.0.3",
+      "NodaTime >= 2.2.0",
+      "Sdc >= 1.0.0",
+      "Sddnac >= 1.0.0",
+      "Sdf >= 1.0.0",
+      "StackExchange.Redis >= 1.2.4"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\eryondon\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\eryondon\\Downloads\\nuget-sample-master\\nuget-sample-master\\Cc\\ApP\\ApP.csproj",
+      "projectName": "ApP",
+      "projectPath": "C:\\Users\\eryondon\\Downloads\\nuget-sample-master\\nuget-sample-master\\Cc\\ApP\\ApP.csproj",
+      "packagesPath": "C:\\Users\\eryondon\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\eryondon\\Downloads\\nuget-sample-master\\nuget-sample-master\\Cc\\ApP\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\eryondon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net461": {
+          "projectReferences": {
+            "C:\\Users\\eryondon\\Downloads\\nuget-sample-master\\nuget-sample-master\\A\\Dtp\\Dtp.csproj": {
+              "projectPath": "C:\\Users\\eryondon\\Downloads\\nuget-sample-master\\nuget-sample-master\\A\\Dtp\\Dtp.csproj"
+            },
+            "C:\\Users\\eryondon\\Downloads\\nuget-sample-master\\nuget-sample-master\\Cc\\McG\\Mcg.csproj": {
+              "projectPath": "C:\\Users\\eryondon\\Downloads\\nuget-sample-master\\nuget-sample-master\\Cc\\McG\\Mcg.csproj"
+            },
+            "C:\\Users\\eryondon\\Downloads\\nuget-sample-master\\nuget-sample-master\\C\\Dc\\Dc.csproj": {
+              "projectPath": "C:\\Users\\eryondon\\Downloads\\nuget-sample-master\\nuget-sample-master\\C\\Dc\\Dc.csproj"
+            },
+            "C:\\Users\\eryondon\\Downloads\\nuget-sample-master\\nuget-sample-master\\I\\Ic\\Ic.csproj": {
+              "projectPath": "C:\\Users\\eryondon\\Downloads\\nuget-sample-master\\nuget-sample-master\\I\\Ic\\Ic.csproj"
+            },
+            "C:\\Users\\eryondon\\Downloads\\nuget-sample-master\\nuget-sample-master\\I\\Imc\\Imc.csproj": {
+              "projectPath": "C:\\Users\\eryondon\\Downloads\\nuget-sample-master\\nuget-sample-master\\I\\Imc\\Imc.csproj"
+            },
+            "C:\\Users\\eryondon\\Downloads\\nuget-sample-master\\nuget-sample-master\\S\\D\\Sdc\\Sdc.csproj": {
+              "projectPath": "C:\\Users\\eryondon\\Downloads\\nuget-sample-master\\nuget-sample-master\\S\\D\\Sdc\\Sdc.csproj"
+            },
+            "C:\\Users\\eryondon\\Downloads\\nuget-sample-master\\nuget-sample-master\\S\\D\\Sddnac\\Sddnac.csproj": {
+              "projectPath": "C:\\Users\\eryondon\\Downloads\\nuget-sample-master\\nuget-sample-master\\S\\D\\Sddnac\\Sddnac.csproj"
+            },
+            "C:\\Users\\eryondon\\Downloads\\nuget-sample-master\\nuget-sample-master\\S\\D\\Sdf\\Sdf.csproj": {
+              "projectPath": "C:\\Users\\eryondon\\Downloads\\nuget-sample-master\\nuget-sample-master\\S\\D\\Sdf\\Sdf.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net461": {
+        "dependencies": {
+          "AWSSDK.S3": {
+            "target": "Package",
+            "version": "[3.3.101.9, )"
+          },
+          "CsQuery": {
+            "target": "Package",
+            "version": "[1.3.4, )"
+          },
+          "Dapper.StrongName": {
+            "target": "Package",
+            "version": "[1.50.2, )"
+          },
+          "JsonDiffPatch.Net": {
+            "target": "Package",
+            "version": "[2.0.2, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[8.0.3, )"
+          },
+          "NodaTime": {
+            "target": "Package",
+            "version": "[2.2.0, )"
+          },
+          "StackExchange.Redis": {
+            "target": "Package",
+            "version": "[1.2.4, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Newtonsoft.Json from 9.0.1 to 8.0.3. Reference the package directly from the project to select a different version. \r\n ApP -> JsonDiffPatch.Net 2.0.2 -> Newtonsoft.Json (>= 9.0.1) \r\n ApP -> Newtonsoft.Json (>= 8.0.3)",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1",
+        ".NETFramework,Version=v4.6.1/win",
+        ".NETFramework,Version=v4.6.1/win-x64",
+        ".NETFramework,Version=v4.6.1/win-x86"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Newtonsoft.Json from 9.0.1 to 8.0.3. Reference the package directly from the project to select a different version. \r\n ApP -> Sdc -> System.IdentityModel.Tokens.Jwt 5.1.4 -> Microsoft.IdentityModel.Tokens 5.1.4 -> Newtonsoft.Json (>= 9.0.1) \r\n ApP -> Newtonsoft.Json (>= 8.0.3)",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1",
+        ".NETFramework,Version=v4.6.1/win",
+        ".NETFramework,Version=v4.6.1/win-x64",
+        ".NETFramework,Version=v4.6.1/win-x86"
+      ]
+    }
+  ]
+}

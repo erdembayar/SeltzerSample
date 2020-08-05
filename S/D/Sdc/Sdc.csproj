@@ -50,10 +50,14 @@
       <Project>{a3e58ff1-ad3f-493e-864d-5401010ab907}</Project>
       <Name>Dc</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\J\Sdjac\Sdjac.csproj">
+      <Project>{265a8472-7ca4-45b7-97ab-8e658d91bbfa}</Project>
+      <Name>Sdjac</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json">
-      <Version>10.0.3</Version>
+      <Version>8.0.3</Version>
     </PackageReference>
     <PackageReference Include="NodaTime">
       <Version>2.2.0</Version>

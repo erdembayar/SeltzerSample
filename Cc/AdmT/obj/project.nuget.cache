@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "nACp5TIzPHG3eBQRy1Ust1r6ScU5JaemJL+mdJVflB8UGW01LX2raG6NFAWwMf84L4qcXK4PGtRNsTJh4G0Pxg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\eryondon\\Downloads\\nuget-sample-master\\nuget-sample-master\\Cc\\AdmT\\AdmT.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\eryondon\\.nuget\\packages\\jquery\\2.1.4\\jquery.2.1.4.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\jquery.typescript.definitelytyped\\3.1.0\\jquery.typescript.definitelytyped.3.1.0.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\jquery.validation\\1.13.1\\jquery.validation.1.13.1.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\mustache.js\\0.8.1\\mustache.js.0.8.1.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\newtonsoft.json\\8.0.3\\newtonsoft.json.8.0.3.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\qtip2\\2.2.1\\qtip2.2.2.1.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\qunit-mvc\\1.6.2\\qunit-mvc.1.6.2.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\qunit.typescript.definitelytyped\\0.1.9\\qunit.typescript.definitelytyped.0.1.9.nupkg.sha512",
+    "C:\\Users\\eryondon\\.nuget\\packages\\underscore.js\\1.8.2\\underscore.js.1.8.2.nupkg.sha512"
+  ],
+  "logs": []
+}
